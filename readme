@@ -1,7 +1,9 @@
-<html>This is a test solution to show some TDD examples.
-<strong>&nbsp;IDataStorage</strong> -- is a wrapper of Linq to SQL datacontext that can be mocked in tests.
-<strong>Tests.BlogEngineTests</strong> contains two simple tests for insert and select operations. Both tests do not require DB.
+This is a test solution to show some TDD examples.
 
-<strong>IntegrationTests.BlogEngineIntegrationTests</strong> contains the same tests that are executed against real DB. Script for test DB is located in 
-<strong>Sql Scripts </strong>folder.
-</html>
+IDataStorage -- is a wrapper of Linq to SQL datacontext that can be mocked in tests.
+
+Tests.BlogEngineTests contains two 
+simple tests for insert and select operations. Both tests do not require DB.
+
+IntegrationTests.BlogEngineIntegrationTests contains the same tests that are executed against real DB. Script for test DB is located in 
+Sql Scripts folder.
