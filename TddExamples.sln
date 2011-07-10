@@ -5,6 +5,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{EC65516E-9004-451E-9527-B440D4E65980}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{DC10AC4F-CD0C-463B-B2F4-489C70A8D807}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DDD5E60-87F3-4C94-AF0E-A40C607A501D}"
+	ProjectSection(SolutionItems) = preProject
+		readme.htm = readme.htm
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,8 +26,15 @@ Global
 		{EC65516E-9004-451E-9527-B440D4E65980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC65516E-9004-451E-9527-B440D4E65980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC65516E-9004-451E-9527-B440D4E65980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC10AC4F-CD0C-463B-B2F4-489C70A8D807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC10AC4F-CD0C-463B-B2F4-489C70A8D807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC10AC4F-CD0C-463B-B2F4-489C70A8D807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC10AC4F-CD0C-463B-B2F4-489C70A8D807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal

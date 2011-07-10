@@ -1,7 +1,9 @@
 ﻿USE [master]
 GO
 
-CREATE DATABASE [TestBlogs] 
+CREATE DATABASE [TestBlogs] COLLATE Ukrainian_CI_AI
+
+
 
 go
 USE [TestBlogs]
@@ -53,4 +55,4 @@ INSERT INTO dbo.Post --(Author, Summary, Body, Tags)
 SELECT 1, 'Первый нах', 'Это самый первый пост, гыгы', 'Жызнь' UNION ALL
 SELECT 2, 'Порвали наушники', 'Меня встретили гопники и... см сабж. Печалька :(', 'Ужос' UNION ALL
 SELECT 3, 'Превед', 'Всем чмоки в этом чате!', 'А шо такое тег?' UNION ALL
-SELECT 1, 'Туса', 'Давайте организуем тусу нашего ресурса! Пишите в личку.', 'Туса'
+SELECT 2, 'Туса', 'Давайте организуем тусу нашего ресурса! Пишите в личку.', 'Туса'
