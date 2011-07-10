@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "Integra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DDD5E60-87F3-4C94-AF0E-A40C607A501D}"
 	ProjectSection(SolutionItems) = preProject
-		readme.htm = readme.htm
+		readme. = readme.
 	EndProjectSection
 EndProject
 Global
