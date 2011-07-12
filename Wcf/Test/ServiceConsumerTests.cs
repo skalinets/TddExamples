@@ -31,28 +31,5 @@ namespace Test
             Assert.Equal(expected, actual);
         }
     }
-
-    public class ServiceInvokerTests
-    {
-        public interface IFoo
-        {
-            int Boo();
-        }
-
-        [Fact]
-        public void should_take_service_client_from_factory()
-        {
-            var serviceClientFactory = MockRepository.GenerateStub<ServiceClientFactory>();
-            var fooClient = MockRepository.GenerateStub<IFoo>();
-            int expected = Guid.NewGuid().GetHashCode();
-            fooClient.Stub(_ => _.Boo()).Return(expected);
-            serviceClientFactory.Stub(_ => _.CreateClient<IFoo>()).Return(fooClient);
-            var serviceInvoker = new ServiceInvoker<IFoo>(serviceClientFactory);
-
-            var actual = serviceInvoker.Invoke(_ => _.Boo());
-
-            Assert.Equal(expected, actual);
-        }
-    }
 }
    

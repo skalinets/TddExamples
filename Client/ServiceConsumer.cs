@@ -1,6 +1,4 @@
-using Client;
-
-namespace Test
+namespace Client
 {
     public class ServiceConsumer
     {
