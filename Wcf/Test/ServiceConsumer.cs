@@ -13,7 +13,7 @@ namespace Test
 
         public int GetAddResultFor(int number1, int number2)
         {
-            return serviceInvoker.Add(number1, number2);
+            return serviceInvoker.Invoke(_ => _.Add(number1, number2));
         }
     }
 }

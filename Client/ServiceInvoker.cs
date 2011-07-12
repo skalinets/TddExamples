@@ -4,7 +4,7 @@ namespace Client
 {
     public class ServiceInvoker<T> 
     {
-        public virtual int Add(int number1, int number2)
+        public virtual R Invoke<R>(Func<T, R> func)
         {
             throw new NotImplementedException();
         }
