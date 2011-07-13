@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{0ACCF3B5-B33F-47D5-B264-EBB1EC163DC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "DB\Tests\Tests.csproj", "{0ACCF3B5-B33F-47D5-B264-EBB1EC163DC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{EC65516E-9004-451E-9527-B440D4E65980}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "DB\Business\Business.csproj", "{EC65516E-9004-451E-9527-B440D4E65980}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{DC10AC4F-CD0C-463B-B2F4-489C70A8D807}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "DB\IntegrationTests\IntegrationTests.csproj", "{DC10AC4F-CD0C-463B-B2F4-489C70A8D807}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DDD5E60-87F3-4C94-AF0E-A40C607A501D}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,9 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wcf", "Wcf", "{58833C0A-A71
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Wcf\Server\Server.csproj", "{6B56C271-7906-4218-9D15-890F92FF7845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{1C69C3DE-B830-4F26-9346-DEF12AA5ED90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Wcf\Client\Client.csproj", "{1C69C3DE-B830-4F26-9346-DEF12AA5ED90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Wcf\Test\Tests.csproj", "{DA985768-3FF7-4113-B91F-B9DF99AEBC35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Wcf\Tests\Tests.csproj", "{DA985768-3FF7-4113-B91F-B9DF99AEBC35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

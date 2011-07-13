@@ -64,7 +64,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Client\Client.csproj">
+    <ProjectReference Include="..\Client\Client.csproj">
       <Project>{1C69C3DE-B830-4F26-9346-DEF12AA5ED90}</Project>
       <Name>Client</Name>
     </ProjectReference>
