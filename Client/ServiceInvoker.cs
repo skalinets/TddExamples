@@ -2,7 +2,7 @@ using System;
 
 namespace Client
 {
-    public class ServiceInvoker<T> 
+    public class ServiceInvoker<T> where T : class
     {
         private readonly ServiceClientFactory serviceClientFactory;
 
