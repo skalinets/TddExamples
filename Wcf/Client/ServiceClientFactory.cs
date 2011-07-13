@@ -14,8 +14,8 @@ namespace Client
 //            }
             var netTcpBinding = new NetTcpBinding();
             var endpointAddress = new EndpointAddress(Addresses.Calculator);
-            
-            return new CalculatorClient(netTcpBinding, endpointAddress) as T;
+            return new ChannelFactory<T>(netTcpBinding, endpointAddress).CreateChannel();
+
         }
     }
 }
